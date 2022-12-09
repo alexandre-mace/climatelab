@@ -186,7 +186,7 @@ function App() {
                 </div>
                 <div className="row mt-4">
                     <div className="col">
-                        ©2021 ClimateLab
+                        ©2022 ClimateLab
                     </div>
                 </div>
             </div>
