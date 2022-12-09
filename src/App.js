@@ -5,6 +5,7 @@ import Tool from "./Tool";
 import compass from './images/compass_1f9ed.webp';
 import foot from './images/foot_1f9b6.webp';
 import globe from './images/globe-showing-europe-africa_1f30d.webp';
+import glass from './images/magnifying-glass-tilted-left_1f50d.webp';
 
 const projectDescription = "Des outils numériques pour le climat qui permettent de s'approprier les ordres de grandeurs et se familiariser avec les objectifs de neutralité carbone."
 
@@ -56,6 +57,18 @@ function App() {
           link: 'https://neutral.climatelab.fr',
           extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(4, 13, 33, .6))'},
           extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(4, 13, 33, .8))'},
+      },
+      {
+          title: 'FAQ du climat',
+          description: 'Les réponses à tes questions sur le climat et l\'énergie.',
+          logo: glass,
+          backgroundColor: '#ffffff',
+          darkModeBackgroundColor: '#000000',
+          color: '#FF313E',
+          darkModeColor: 'white',
+          link: 'https://faqduclimat.climatelab.fr',
+          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(255, 49, 62, .6))'},
+          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(255, 49, 62, .8))'},
       },
   ]
 
