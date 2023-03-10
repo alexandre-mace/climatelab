@@ -134,6 +134,7 @@ ul {
 }
 
 .header-links-wrapper {
+    z-index: 10;
     padding-top: 10px;
     opacity: 0;
     top: calc(100% - 15px);
@@ -149,6 +150,12 @@ ul {
     transition: opacity .2s,transform .2s;
     transition: opacity .2s,transform .2s,-webkit-transform .2s;
     will-change: transform;
+}
+.header-links {
+    background-color: white;
+}
+.dark-mode .header-links {
+    background-color:  #242424;
 }
 .header-links-trigger:hover .header-links-wrapper {
     opacity: 1;
