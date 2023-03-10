@@ -53,7 +53,7 @@ function App() {
           logo: magicWand,
           backgroundColor: '#ffffff',
           darkModeBackgroundColor: '#000000',
-          color: '#7100fc',
+          color: '#5c00fc',
           darkModeColor: 'white',
           link: 'https://kitantigreenwashing.climatelab.fr',
           extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(113, 0, 252, .6))'},
