@@ -6,6 +6,7 @@ import compass from './images/compass_1f9ed.webp';
 import foot from './images/foot_1f9b6.webp';
 import globe from './images/globe-showing-europe-africa_1f30d.webp';
 import glass from './images/magnifying-glass-tilted-left_1f50d.webp';
+import magicWand from './images/magic-wand_1fa84.png';
 
 const projectDescription = "Des outils numériques pour le climat qui permettent de s'approprier les ordres de grandeurs et se familiariser avec les objectifs de neutralité carbone."
 
@@ -45,6 +46,18 @@ function App() {
           link: 'https://explorateur.climatelab.fr',
           extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(100, 120, 255, .6))'},
           extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(100, 120, 255, .8))'},
+      },
+      {
+          title: 'Kit anti greenwashing',
+          description: 'Démasquez vous-mêmes le greenwashing grâce à des arguments sourcés réutilisables.',
+          logo: magicWand,
+          backgroundColor: '#ffffff',
+          darkModeBackgroundColor: '#000000',
+          color: '#7100fc',
+          darkModeColor: 'white',
+          link: 'https://kitantigreenwashing.climatelab.fr',
+          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(113, 0, 252, .6))'},
+          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(113, 0, 252, .8))'},
       },
       {
           title: 'Neutral',
