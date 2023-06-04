@@ -7,6 +7,7 @@ import foot from './images/foot_1f9b6.webp';
 import globe from './images/globe-showing-europe-africa_1f30d.webp';
 import glass from './images/magnifying-glass-tilted-left_1f50d.webp';
 import magicWand from './images/magic-wand_1fa84.png';
+import feather from './images/feather_1fab6.png';
 
 const projectDescription = "Des outils numériques pour le climat qui permettent de s'approprier les ordres de grandeurs et se familiariser avec les objectifs de neutralité carbone."
 
@@ -24,16 +25,16 @@ function App() {
 
   const tools = [
       {
-          title: 'Footprint',
-          description: 'Apprivoisez les ordres de grandeurs des émissions de gaz à effet de serre relatifs à nos activités quotidiennes.',
-          logo: foot,
-          backgroundColor: '#f1efed',
+          title: 'Reduce',
+          description: 'Comprenez quels indicateurs ont le plus d\'impact sur votre empreinte.',
+          logo: feather,
+          backgroundColor: '#ffffff',
           darkModeBackgroundColor: '#000000',
           darkModeColor: 'white',
-          color: '#ff4b31',
-          link: 'https://footprint.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(255, 75, 48, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(255, 75, 48, .8))'}
+          color: '#319795',
+          link: 'https://reduce.climatelab.fr',
+          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(49, 151, 149, .6))'},
+          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(49, 151, 149, .8))'}
       },
       {
           title: 'Explorateur',
@@ -58,6 +59,18 @@ function App() {
           link: 'https://kitantigreenwashing.climatelab.fr',
           extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(113, 0, 252, .6))'},
           extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(113, 0, 252, .8))'},
+      },
+      {
+          title: 'Footprint',
+          description: 'Apprivoisez les ordres de grandeurs des émissions de gaz à effet de serre relatifs à nos activités quotidiennes.',
+          logo: foot,
+          backgroundColor: '#f1efed',
+          darkModeBackgroundColor: '#000000',
+          darkModeColor: 'white',
+          color: '#ff4b31',
+          link: 'https://footprint.climatelab.fr',
+          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(255, 75, 48, .6))'},
+          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(255, 75, 48, .8))'}
       },
       {
           title: 'Neutral',
