@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce3fb4d8.css",
-    "main.js": "/static/js/main.88d3f02f.js",
+    "main.css": "/static/css/main.c924fe8e.css",
+    "main.js": "/static/js/main.02a443e0.js",
     "static/js/787.891924f8.chunk.js": "/static/js/787.891924f8.chunk.js",
     "static/media/globe-showing-europe-africa_1f30d.webp": "/static/media/globe-showing-europe-africa_1f30d.5bf221ce79b105fc385e.webp",
     "static/media/compass_1f9ed.webp": "/static/media/compass_1f9ed.a06d8a9db5a6b26ed64c.webp",
@@ -10,12 +10,12 @@
     "static/media/magic-wand_1fa84.png": "/static/media/magic-wand_1fa84.3b67238ca775bb942bec.png",
     "static/media/foot_1f9b6.webp": "/static/media/foot_1f9b6.c9bf179d0e3de9bb084b.webp",
     "index.html": "/index.html",
-    "main.ce3fb4d8.css.map": "/static/css/main.ce3fb4d8.css.map",
-    "main.88d3f02f.js.map": "/static/js/main.88d3f02f.js.map",
+    "main.c924fe8e.css.map": "/static/css/main.c924fe8e.css.map",
+    "main.02a443e0.js.map": "/static/js/main.02a443e0.js.map",
     "787.891924f8.chunk.js.map": "/static/js/787.891924f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce3fb4d8.css",
-    "static/js/main.88d3f02f.js"
+    "static/css/main.c924fe8e.css",
+    "static/js/main.02a443e0.js"
   ]
 }
