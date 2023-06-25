@@ -50,7 +50,7 @@ h1 {
 }
 .tool img {
     height: 130px;
-    filter: drop-shadow(16px 32px 16px rgba(0,0,0,.16));
+    /*filter: drop-shadow(16px 32px 16px rgba(0,0,0,.16));*/
     will-change: transform;
 }
 

@@ -33,8 +33,8 @@ function App() {
           darkModeColor: 'white',
           color: '#319795',
           link: 'https://reduce.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(49, 151, 149, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(49, 151, 149, .8))'}
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(49, 151, 149, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(49, 151, 149, .6)'}
       },
       {
           title: 'Explorateur',
@@ -45,8 +45,8 @@ function App() {
           darkModeColor: 'white',
           color: '#6478ff',
           link: 'https://explorateur.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(100, 120, 255, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(100, 120, 255, .8))'},
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(100, 120, 255, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(100, 120, 255, .6)'},
       },
       {
           title: 'Kit anti greenwashing',
@@ -57,8 +57,8 @@ function App() {
           color: '#5c00fc',
           darkModeColor: 'white',
           link: 'https://kitantigreenwashing.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(113, 0, 252, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(113, 0, 252, .8))'},
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(113, 0, 252, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(113, 0, 252, .6)'},
       },
       {
           title: 'Footprint',
@@ -69,8 +69,8 @@ function App() {
           darkModeColor: 'white',
           color: '#ff4b31',
           link: 'https://footprint.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(255, 75, 48, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(255, 75, 48, .8))'}
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(255, 75, 48, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(255, 75, 48, .6)'}
       },
       {
           title: 'Neutral',
@@ -81,8 +81,8 @@ function App() {
           color: '#040D21',
           darkModeColor: 'white',
           link: 'https://neutral.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(4, 13, 33, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(4, 13, 33, .8))'},
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(4, 13, 33, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(4, 13, 33, .4)'},
       },
       {
           title: 'FAQ du climat',
@@ -93,8 +93,8 @@ function App() {
           color: '#FF313E',
           darkModeColor: 'white',
           link: 'https://faqduclimat.climatelab.fr',
-          extraCss: {filter: 'drop-shadow(0 0 0.3rem rgba(255, 49, 62, .6))'},
-          extraCssHover: {filter: 'drop-shadow(0 0 0.5rem rgba(255, 49, 62, .8))'},
+          extraCss: {boxShadow: '0 0 8px .2rem rgba(255, 49, 62, .3)'},
+          extraCssHover: {boxShadow: '0 0 20px .3rem rgba(255, 49, 62, .6)'},
       },
   ]
 
