@@ -171,7 +171,6 @@ ul {
     background: #383838;
 }
 .header-link img {
-    height: 25px;
 }
 
 
@@ -237,9 +236,9 @@ ul {
 #menu {
     position: absolute;
     min-height: 120vh;
-    left: -170px;
+    left: -138px;
     margin: -100px 0 0 -50px;
-    padding: 125px 150px 50px 50px;
+    padding: 110px 20px 50px 20px;
     background: #f6f5f5;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -255,7 +254,7 @@ ul {
 }
 #menu li {
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 #menu li a {

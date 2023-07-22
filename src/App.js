@@ -160,7 +160,7 @@ function App() {
                                 {tools.map((tool, index) => (
                                     <li key={index}>
                                         <a rel="noreferrer noopener" target={"blank"} href={tool.link} className={"header-link d-flex align-items-center"}>
-                                            <img height={25} width={25} className={"mr-2"} src={tool.logo} alt="Logo du projet"/>
+                                            <img height={20} width={20} className={"mr-2"} src={tool.logo} alt="Logo du projet"/>
                                             {tool.title}
                                         </a>
                                     </li>
@@ -202,7 +202,7 @@ function App() {
                 </div>
                 <div className="row mt-4">
                     {tools.map((tool, index) => (
-                        <div key={index} className="col-auto font-weight-700">
+                        <div key={index} className="col-12 col-md-auto font-weight-700">
                             <a rel="noreferrer noopener" target={"blank"} href={tool.link} className={"header-link d-flex align-items-center"}>
                                 {tool.title}
                                 <img height={25} width={25} className={"ml-2"} src={tool.logo} alt="Logo du projet"/>
