@@ -35,7 +35,7 @@ h1 {
 
 .dark-mode {
     color: white;
-    background: #242424;
+    background: #000000;
 }
 
 .font-weight-700 {
@@ -110,7 +110,7 @@ ul {
     background: #f6f5f5;
 }
 .dark-mode .header-links-trigger:hover {
-    background: #383838;
+    background: #242424;
 }
 .header-link {
     color: black;
@@ -247,7 +247,7 @@ ul {
     transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 .dark-mode #menu {
-    background-color: #595959;
+    background-color: #000000;
 }
 .dark-mode #menuToggle span {
     background-color: white !important;
