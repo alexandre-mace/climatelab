@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Reduce",
+    "description": "Identifiez rapidement quels indicateurs pèsent le plus sur votre empreinte.",
+    "logo": "/images/feather_1fab6.png",
+    "backgroundColor": "#ffffff",
+    "color": "#319795",
+    "link": "https://reduce.climatelab.fr",
+    "shadow": "shadow-[0_0_8px_.2rem_rgba(49,151,149,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(49,151,149,.6)]"
+  },
+  {
+    "title": "Footprint",
+    "description": "Apprivoisez les ordres de grandeurs des émissions de gaz à effet de serre relatifs à nos activités quotidiennes.",
+    "logo": "/images/foot_1f9b6.webp",
+    "backgroundColor": "#ffffff",
+    "color": "#ff4b31",
+    "link": "https://footprint.climatelab.fr",
+    "shadow": "shadow-[0_0_8px_.2rem_rgba(255,75,48,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(255,75,48,.6)]"
+  },
+  {
+    "title": "Explorateur",
+    "description": "Explorez, filtrez et visualisez les données de l'énergie et du climat à travers des graphiques dynamiques.",
+    "logo": "/images/globe-showing-europe-africa_1f30d.webp",
+    "backgroundColor": "#ffffff",
+    "color": "#6478ff",
+    "link": "https://explorateur.climatelab.fr",
+    "shadow": "shadow-[0_0_8px_.2rem_rgba(100,120,255,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(100,120,255,.6)]"
+  },
+  {
+    "title": "Neutral",
+    "description": "Repérez-vous au travers de la transition énergétique.",
+    "logo": "/images/compass_1f9ed.webp",
+    "backgroundColor": "#ffffff",
+    "color": "#040D21",
+    "link": "https://neutral.climatelab.fr",
+    "shadow": "shadow-[0_0_8px_.2rem_rgba(71,62,168,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(71,62,168,.6)]"
+  }
+]
