@@ -1,5 +1,15 @@
 [
   {
+    "title": "Transitions",
+    "description": "Explorer les idées reçues de la transition vers la neutralité carbone.",
+    "logo": "/images/flashlight_1f526.png",
+    "backgroundColor": "#ffffff",
+    "color": "#ffef69",
+    "link": "https://transitions.climatelab.fr",
+    "shadow": "shadow-[0_0_8px_.2rem_rgba(222,198,42,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(255,225,33,.6)]"
+  },
+  {
     "title": "Reduce",
     "description": "Identifiez rapidement quels indicateurs pèsent le plus sur votre empreinte.",
     "logo": "/images/feather_1fab6.png",
