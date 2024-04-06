@@ -10,12 +10,12 @@
     "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(255,225,33,.6)]"
   },
   {
-    "title": "Reduce",
+    "title": "Plume",
     "description": "Identifiez rapidement quels indicateurs pèsent le plus sur votre empreinte.",
     "logo": "/images/feather_1fab6.png",
     "backgroundColor": "#ffffff",
     "color": "#319795",
-    "link": "https://reduce.climatelab.fr",
+    "link": "https://plume.climatelab.fr",
     "shadow": "shadow-[0_0_8px_.2rem_rgba(49,151,149,.3)]",
     "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(49,151,149,.6)]"
   },
