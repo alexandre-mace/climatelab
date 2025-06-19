@@ -2,7 +2,6 @@ import Image from "next/image";
 import Footer from "@/components/Footer";
 import { Tool, ToolType } from "@/components/Tool";
 import tools from "@/data/tools.json";
-import Matomo from "@/components/Matomo";
 
 export default function Home() {
   return (
@@ -35,7 +34,6 @@ export default function Home() {
         ))}
       </section>
       <Footer />
-      <Matomo />
     </div>
   );
 }

@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@radix-ui/react-switch": "^1.0.3",
-    "@socialgouv/matomo-next": "^1.8.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.364.0",
