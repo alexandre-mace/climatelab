@@ -1,38 +1,44 @@
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
 import { Tool, ToolType } from "@/components/Tool";
 import tools from "@/data/tools.json";
 
 export default function Home() {
   return (
-    <div className={"container px-4 max-w-6xl flex flex-col gap-12 py-4"}>
-      <header className={""}>
-        <div className={"flex gap-2 items-center"}>
+    <div className="mx-auto max-w-[1600px] p-4 flex flex-col">
+      <header className="flex items-center justify-between">
+        <div className="flex gap-2.5 items-center">
           <Image
-            height={27}
-            width={27}
-            className={""}
-            src="https://em-content.zobj.net/thumbs/240/apple/285/alembic_2697-fe0f.png"
+            height={24}
+            width={24}
+            src="/images/alembic_2697.png"
             alt="Alambic"
-          />{" "}
-          <span className={"font-medium"}>ClimateLab</span>
+          />
+          <span className="text-lg tracking-tight font-bold">
+            Climate<span className="font-display italic font-normal">Lab</span>
+          </span>
         </div>
+        <ThemeToggle />
       </header>
-      <section className={"flex flex-col items-center text-center"}>
-        <h1 className={"text-4xl mb-2 font-extrabold sm:text-6xl"}>
-          ClimateLab
+
+      <section className="flex flex-col items-center text-center mt-8 sm:mt-12 mb-8 sm:mb-12">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl tracking-tight mb-5 font-bold">
+          Climate<span className="font-display italic font-normal">Lab</span>
         </h1>
-        <h2 className={"text-lg sm:text-xl font-medium max-w-xl"}>
-          {
-            "Des outils numériques pour le climat qui permettent de s'approprier les ordres de grandeurs et se familiariser avec les objectifs de neutralité carbone."
-          }
-        </h2>
+        <p className="text-lg sm:text-xl max-w-2xl text-muted-foreground leading-relaxed">
+          Des outils numériques pour le climat qui permettent de
+          s&apos;approprier les ordres de grandeurs et se familiariser avec les
+          objectifs de neutralité carbone.
+        </p>
       </section>
-      <section className={"grid gap-8 sm:grid-cols-2"}>
+
+      <section className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {tools.map((tool: ToolType, index) => (
-          <Tool key={tool.title} tool={tool} />
+          <Tool key={tool.title} tool={tool} index={index} />
         ))}
       </section>
+
       <Footer />
     </div>
   );

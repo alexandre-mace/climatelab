@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className={"mt-20 text-center md:mt-20"}>
-      <div className={"mx-auto font-medium"}>
+    <footer className="mt-16">
+      <div className="text-center text-sm text-muted-foreground">
         Fait avec amour par{" "}
         <a
-          className={"ml-1 underline hover:text-slate-700"}
+          className="underline underline-offset-4 hover:text-foreground transition-colors"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/alexandre-mace"
