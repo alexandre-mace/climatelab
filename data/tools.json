@@ -5,10 +5,10 @@
     "logo": "/images/flashlight_1f526.png",
     "color": "#a16207",
     "link": "https://transitions.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(222,198,42,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(255,225,33,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(222,198,42,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(255,225,33,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(222,198,42,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(255,225,33,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(222,198,42,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(255,225,33,1)]"
   },
   {
     "title": "Plume",
@@ -16,10 +16,10 @@
     "logo": "/images/feather_1fab6.png",
     "color": "#319795",
     "link": "https://plume.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(49,151,149,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(49,151,149,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(49,151,149,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(49,151,149,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(49,151,149,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(49,151,149,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(49,151,149,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(49,151,149,1)]"
   },
   {
     "title": "Footprint",
@@ -27,10 +27,10 @@
     "logo": "/images/foot_1f9b6.webp",
     "color": "#ff4b31",
     "link": "https://footprint.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(255,75,48,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(255,75,48,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(255,75,48,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(255,75,48,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(255,75,48,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(255,75,48,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(255,75,48,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(255,75,48,1)]"
   },
   {
     "title": "Explorateur",
@@ -38,10 +38,10 @@
     "logo": "/images/globe-showing-europe-africa_1f30d.webp",
     "color": "#6478ff",
     "link": "https://explorateur.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(100,120,255,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(100,120,255,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(100,120,255,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(100,120,255,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(100,120,255,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(100,120,255,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(100,120,255,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(100,120,255,1)]"
   },
   {
     "title": "Neutral",
@@ -49,10 +49,10 @@
     "logo": "/images/compass_1f9ed.webp",
     "color": "#473ea8",
     "link": "https://neutral.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(71,62,168,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(71,62,168,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(71,62,168,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(71,62,168,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(71,62,168,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(71,62,168,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(71,62,168,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(71,62,168,1)]"
   },
   {
     "title": "Thermomètre",
@@ -60,9 +60,9 @@
     "logo": "/images/thermometer_1f321.png",
     "color": "#dc2626",
     "link": "https://thermometre.climatelab.fr",
-    "shadow": "shadow-[0_0_8px_.2rem_rgba(220,38,38,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_20px_.3rem_rgba(220,38,38,.6)]",
-    "darkShadow": "dark:shadow-[0_0_12px_.25rem_rgba(220,38,38,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_24px_.4rem_rgba(220,38,38,1)]"
+    "shadow": "shadow-[0_0_5px_.1rem_rgba(220,38,38,.3)]",
+    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(220,38,38,.6)]",
+    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(220,38,38,.7)]",
+    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(220,38,38,1)]"
   }
 ]
