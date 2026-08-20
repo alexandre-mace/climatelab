@@ -6,7 +6,7 @@ import tools from "@/data/tools.json";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-[1600px] p-4 flex flex-col">
+    <div className="mx-auto max-w-[1600px] p-4 sm:p-8 flex flex-col">
       <header className="flex items-center justify-between">
         <div className="flex gap-2.5 items-center">
           <Image
