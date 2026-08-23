@@ -6,18 +6,13 @@ type ToolType = {
   title: string;
   description: string;
   logo: string;
-  color: string;
   link: string;
-  shadow: string;
-  hoverShadow: string;
-  darkShadow: string;
-  darkHoverShadow: string;
 };
 
 const Tool = ({ tool, index }: { tool: ToolType; index: number }) => {
   return (
     <Link
-      className={`tool group hover:-translate-y-2 ${tool.shadow} ${tool.hoverShadow} ${tool.darkShadow} ${tool.darkHoverShadow} flex flex-col h-full p-7 sm:p-10 rounded-2xl bg-card border border-border card-enter`}
+      className="group relative flex h-full flex-col rounded-lg border border-border bg-card p-5 transition-colors hover:border-primary/40 sm:p-6 card-enter"
       style={{
         animationDelay: `${index * 75}ms`,
       }}
@@ -25,22 +20,19 @@ const Tool = ({ tool, index }: { tool: ToolType; index: number }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="flex justify-between items-start mb-6">
+      <div className="mb-5 flex items-start justify-between">
         <Image
-          height={64}
-          width={64}
+          height={44}
+          width={44}
           src={tool.logo}
           alt={`Logo ${tool.title}`}
         />
-        <ArrowUpRight className="size-5 text-muted-foreground opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300" />
+        <ArrowUpRight className="size-4 text-muted-foreground/40 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
       </div>
-      <h2
-        className="text-xl font-bold sm:text-2xl mt-auto mb-2"
-        style={{ color: tool.color }}
-      >
+      <h2 className="mt-auto mb-1.5 text-lg font-semibold tracking-tight transition-colors group-hover:text-primary">
         {tool.title}
       </h2>
-      <p className="leading-relaxed line-clamp-3">
+      <p className="text-sm leading-relaxed text-muted-foreground line-clamp-3">
         {tool.description}
       </p>
     </Link>
