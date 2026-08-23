@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Footer from "@/components/Footer";
+import { Brand } from "@/components/brand";
 import { Tool, ToolType } from "@/components/Tool";
 import tools from "@/data/tools.json";
 
@@ -7,17 +7,15 @@ export default function Home() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col p-4 sm:p-8">
       <header className="flex items-center justify-between">
-        <div className="flex items-center gap-2.5">
-          <Image
-            height={24}
-            width={24}
-            src="/images/alembic_2697.png"
-            alt="Alambic"
-          />
-          <span className="text-lg font-bold tracking-tight">
-            Climate<span className="font-display italic font-normal">Lab</span>
-          </span>
-        </div>
+        <Brand
+          name={
+            <span className="text-lg font-bold tracking-tight">
+              Climate
+              <span className="font-display italic font-normal">Lab</span>
+            </span>
+          }
+          logo="/images/alembic_2697.png"
+        />
       </header>
 
       <section className="mt-8 mb-8 flex flex-col items-center text-center sm:mt-12 sm:mb-12">
