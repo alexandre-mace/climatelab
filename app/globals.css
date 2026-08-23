@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* Mono-theme clair : la variante dark ne s'active que par classe .dark, jamais posee. */
+@custom-variant dark (&:is(.dark *));
+
 @theme inline {
   --font-sans: var(--font-geist-sans), system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), monospace;
