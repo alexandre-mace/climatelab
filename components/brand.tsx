@@ -26,7 +26,7 @@ function Brand({
     <Link
       href={href}
       className={cn(
-        "inline-flex items-center gap-2 rounded-md text-sm font-medium whitespace-nowrap outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 sm:text-base",
+        "inline-flex items-center gap-1.5 rounded-md text-sm font-medium whitespace-nowrap outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 sm:text-base",
         className,
       )}
     >
