@@ -12,6 +12,12 @@
     "link": "https://thermometre.climatelab.fr"
   },
   {
+    "title": "Mix",
+    "description": "Construisez le mix électrique français de 2050 dans les bornes industrielles décrites par RTE.",
+    "logo": "/images/high-voltage_26a1.png",
+    "link": "https://mix.climatelab.fr"
+  },
+  {
     "title": "Transitions",
     "description": "Explorer les idées reçues de la transition vers la neutralité carbone.",
     "logo": "/images/flashlight_1f526.png",
