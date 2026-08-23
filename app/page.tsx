@@ -21,13 +21,19 @@ export default function Home() {
       </header>
 
       <section className="mt-8 mb-8 flex flex-col items-center text-center sm:mt-12 sm:mb-12">
-        <h1 className="mb-5 text-5xl font-bold tracking-tight sm:text-7xl lg:text-8xl">
+        <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
           Climate<span className="font-display italic font-normal">Lab</span>
         </h1>
-        <p className="max-w-2xl text-lg leading-relaxed text-pretty text-muted-foreground sm:text-xl">
-          Des outils numériques pour le climat qui permettent de
-          s&apos;approprier les ordres de grandeurs et se familiariser avec les
-          objectifs de neutralité carbone.
+        <p className="max-w-xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
+          Des outils numériques pour le climat :{" "}
+          <span className="font-medium text-foreground">
+            s&apos;approprier les ordres de grandeur
+          </span>{" "}
+          et{" "}
+          <span className="font-medium text-foreground">
+            se familiariser avec la neutralité carbone
+          </span>
+          .
         </p>
       </section>
 
