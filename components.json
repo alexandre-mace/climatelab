@@ -13,5 +13,8 @@
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils"
+  },
+  "registries": {
+    "@alexandremace": "https://ui.alexandremace.fr/r/{name}.json"
   }
 }
