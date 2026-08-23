@@ -5,7 +5,7 @@ import tools from "@/data/tools.json";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex max-w-6xl flex-col p-4 sm:p-8">
+    <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col p-4 sm:p-8">
       <header className="flex items-center justify-between">
         <Brand
           name={
