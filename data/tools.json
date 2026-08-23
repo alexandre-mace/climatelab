@@ -22,17 +22,6 @@
     "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(255,75,48,1)]"
   },
   {
-    "title": "Explorateur",
-    "description": "Explorez, filtrez et visualisez les données de l'énergie et du climat à travers des graphiques dynamiques.",
-    "logo": "/images/globe-showing-europe-africa_1f30d.webp",
-    "color": "#6478ff",
-    "link": "https://explorateur.climatelab.fr",
-    "shadow": "shadow-[0_0_5px_.1rem_rgba(100,120,255,.3)]",
-    "hoverShadow": "hover:shadow-[0_0_12px_.15rem_rgba(100,120,255,.6)]",
-    "darkShadow": "dark:shadow-[0_0_8px_.12rem_rgba(100,120,255,.7)]",
-    "darkHoverShadow": "dark:hover:shadow-[0_0_14px_.2rem_rgba(100,120,255,1)]"
-  },
-  {
     "title": "Neutral",
     "description": "Repérez-vous au travers de la transition énergétique.",
     "logo": "/images/compass_1f9ed.webp",
