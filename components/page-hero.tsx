@@ -4,9 +4,15 @@ import { cn } from "@/lib/utils"
 
 const TAILLES = {
   /** Pages qui accueillent : la taille fait l'autorité, le semibold suffit. */
-  page: "text-4xl font-semibold tracking-tight text-balance sm:text-5xl",
+  page: {
+    titre: "text-4xl font-semibold tracking-tight text-balance sm:text-5xl",
+    lead: "text-base sm:text-lg",
+  },
   /** En-têtes d'outil : l'interface démarre juste en dessous, le titre s'efface. */
-  compact: "text-2xl font-semibold tracking-tight text-balance sm:text-3xl",
+  compact: {
+    titre: "text-2xl font-semibold tracking-tight text-balance sm:text-3xl",
+    lead: "text-sm sm:text-base",
+  },
 } as const
 
 const LARGEURS = {
@@ -51,9 +57,14 @@ function PageHero({
       )}
     >
       {media}
-      <h1 className={cn(TAILLES[size], media && "mt-4")}>{title}</h1>
+      <h1 className={cn(TAILLES[size].titre, media && "mt-4")}>{title}</h1>
       {children && (
-        <p className="mt-4 text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
+        <p
+          className={cn(
+            "mt-4 leading-relaxed text-pretty text-muted-foreground",
+            TAILLES[size].lead,
+          )}
+        >
           {children}
         </p>
       )}
