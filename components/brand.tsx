@@ -2,7 +2,6 @@
 
 import type * as React from "react"
 import Image from "next/image"
-import { Link } from "react-aria-components"
 import { cn } from "@/lib/utils"
 
 /**
@@ -23,7 +22,7 @@ function Brand({
   className?: string
 }) {
   return (
-    <Link
+    <a
       href={href}
       className={cn(
         "inline-flex items-center gap-1.5 rounded-md text-sm font-medium whitespace-nowrap outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 sm:text-base",
@@ -39,7 +38,7 @@ function Brand({
         className="inline-block h-5 w-auto shrink-0"
       />
       {name}
-    </Link>
+    </a>
   )
 }
 

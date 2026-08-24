@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import { Link } from "react-aria-components"
 import { cn } from "@/lib/utils"
 
 /** Badge « un outil du ClimateLab », à poser à droite du header des outils. */
@@ -9,7 +8,7 @@ function ClimateLabBadge({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center gap-2.5 text-sm", className)}>
       <span className="hidden md:inline-block">un outil du</span>
-      <Link
+      <a
         href="https://climatelab.fr"
         target="_blank"
         rel="noopener noreferrer"
@@ -24,7 +23,7 @@ function ClimateLabBadge({ className }: { className?: string }) {
           className="h-5 w-auto shrink-0"
         />
         ClimateLab
-      </Link>
+      </a>
     </div>
   )
 }
