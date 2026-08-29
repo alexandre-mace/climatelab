@@ -37,9 +37,4 @@ This is a **static portal site** — no API routes, no database, no backend. It 
 - **Shadow system**: Each tool has custom Tailwind shadow classes stored in JSON, applied dynamically.
 - **Images**: Remote patterns allow all HTTPS hosts in `next.config.mjs`. Logos are emoji PNGs/WebPs in `public/images/`.
 
-## Conventions de la stack
-
-Les conventions communes à mes projets Next vivent dans `docs/next-guidelines.md`,
-un lien vers le dépôt partagé [dev-standards](https://github.com/alexandre-mace/dev-standards)
-(fichier `next/next-guidelines.md`). Si ce lien est cassé, c'est que le dépôt n'est
-pas cloné à côté de celui-ci : lire la version en ligne.
+Conventions de la stack : `docs/next-guidelines.md`, lien vers [dev-standards](https://github.com/alexandre-mace/dev-standards).
