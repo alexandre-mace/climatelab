@@ -35,6 +35,6 @@ This is a **static portal site** — no API routes, no database, no backend. It 
 - **"use client"** only where needed (interactive components). Default to Server Components.
 - **Path alias**: `@/*` maps to project root.
 - **Shadow system**: Each tool has custom Tailwind shadow classes stored in JSON, applied dynamically.
-- **Images**: Remote patterns allow all HTTPS hosts in `next.config.mjs`. Logos are emoji PNGs/WebPs in `public/images/`.
+- **Images**: `images.unoptimized` in `next.config.mjs`, no Vercel transformation (the Hobby quota is shared by every project on the account). Logos are emoji PNGs/WebPs in `public/images/`.
 
 Conventions de la stack : `docs/next-guidelines.md`, lien vers [dev-standards](https://github.com/alexandre-mace/dev-standards).
